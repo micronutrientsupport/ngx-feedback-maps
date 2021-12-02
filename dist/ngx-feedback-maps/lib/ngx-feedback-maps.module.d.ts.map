@@ -1,1 +1,1 @@
-{"version":3,"file":"ngx-feedback-maps.module.d.ts","sources":["ngx-feedback-maps.module.d.ts"],"names":[],"mappings":";;;;;;;;AAAA;;;;AACA","sourcesContent":["export declare class NgxFeedbackModule {\n}\n"]}
+{"version":3,"file":"ngx-feedback-maps.module.d.ts","sourceRoot":"","sources":["../../../projects/ngx-feedback-maps/src/lib/ngx-feedback-maps.module.ts"],"names":[],"mappings":";;;;;;;;AAeA,qBAca,iBAAiB;yCAAjB,iBAAiB;0CAAjB,iBAAiB;0CAAjB,iBAAiB;CAAG"}

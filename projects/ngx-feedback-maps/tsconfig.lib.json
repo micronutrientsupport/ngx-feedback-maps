@@ -1,21 +1,23 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-  "extends": "../../tsconfig.json",
+  "angularCompilerOptions": {
+    "compilationMode": "partial",
+    "strictTemplates": true,
+    "enableResourceInlining": true
+  },
+  "buildOnSave": false,
+  "compileOnSave": false,
   "compilerOptions": {
     "outDir": "../../out-tsc/lib",
     "target": "es2015",
+    "baseUrl": ".",
+    "paths": {
+      "ngx-feedback-maps/*": ["lib/*"]
+    },
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
     "strictPropertyInitialization": false,
-    "types": [],
-    "lib": [
-      "dom",
-      "es2018"
-    ]
+    "lib": ["dom", "es2018"]
   },
-  "exclude": [
-    "src/test.ts",
-    "**/*.spec.ts"
-  ]
+  "exclude": ["**/*.shim.ts", "**/*.spec.ts"]
 }

@@ -4,6 +4,7 @@
   "compilerOptions": {
     "declarationMap": false,
     "strictPropertyInitialization": false,
+    "sourceMap": true
   },
   "angularCompilerOptions": {
     "compilationMode": "partial"
