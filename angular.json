@@ -22,7 +22,7 @@
               "tsConfig": "projects/ngx-feedback-maps/tsconfig.lib.json"
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         }
       }
     }

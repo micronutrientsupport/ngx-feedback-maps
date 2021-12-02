@@ -7,19 +7,17 @@
   "buildOnSave": false,
   "compileOnSave": false,
   "compilerOptions": {
-    "target": "es2020",
-    "module": "es2020",
-    "moduleResolution": "node",
+    "outDir": "../../out-tsc/lib",
+    "target": "es2015",
     "baseUrl": ".",
+    "paths": {
+      "ngx-feedback-maps/*": ["lib/*"]
+    },
     "declaration": true,
-    "inlineSourceMap": true,
+    "declarationMap": true,
     "inlineSources": true,
-    "skipLibCheck": true,
-    "emitDecoratorMetadata": false,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "lib": ["dom", "es2018"],
-    "allowSyntheticDefaultImports": true
+    "strictPropertyInitialization": false,
+    "lib": ["dom", "es2018"]
   },
-  "exclude": ["node_modules", "dist", "**/*.shim.ts", "**/*.spec.ts"]
+  "exclude": ["**/*.shim.ts", "**/*.spec.ts"]
 }

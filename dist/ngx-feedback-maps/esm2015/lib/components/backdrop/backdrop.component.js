@@ -10,7 +10,7 @@ export class BackdropComponent {
     }
 }
 BackdropComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.13", ngImport: i0, type: BackdropComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
-BackdropComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.13", type: BackdropComponent, selector: "ngx-feedback-backdrop", outputs: { click: "click" }, ngImport: i0, template: "<div class=\"ngx-feedback-backdrop__container\"></div>", styles: [".ngx-feedback-backdrop__container{position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:1000;background-color:#3b5560;opacity:.7}\n"] });
+BackdropComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "12.2.13", type: BackdropComponent, selector: "ngx-feedback-backdrop", outputs: { click: "click" }, ngImport: i0, template: "<div class=\"ngx-feedback-backdrop__container\"></div>", styles: [".ngx-feedback-backdrop__container{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000;background-color:#3b5560;opacity:.7}"] });
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.13", ngImport: i0, type: BackdropComponent, decorators: [{
             type: Component,
             args: [{
